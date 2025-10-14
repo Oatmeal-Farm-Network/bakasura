@@ -60,8 +60,8 @@ COSMOS_KEY=your_cosmos_key
 COSMOS_DATABASE=your_database_name
 COSMOS_CONTAINER=your_container_name
 
-CHUNK_SIZE=400
-CHUNK_OVERLAP=100
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
 MAX_FILES=10
 
 AZURE_VISION_ENDPOINT=your_azure_vision_endpoint
@@ -74,7 +74,7 @@ AZURE_OPENAI_EMBEDDING_DEPLOYMENT=embeddings
 
 AZURE_SEARCH_ENDPOINT=your_search_endpoint
 AZURE_SEARCH_KEY=your_search_key
-AZURE_SEARCH_INDEX_NAME=bakasura-documents
+AZURE_SEARCH_INDEX_NAME=bakasura-docs-v3-chunk1000
 
     ```
 

@@ -32,8 +32,8 @@ client = AzureOpenAI(
 )
 
 # Constants
-CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", 400))
-CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", 100))
+CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", 1000))
+CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", 200))
 
 
 def hash_text(text):

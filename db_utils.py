@@ -29,7 +29,7 @@ load_dotenv()
 
 SEARCH_ENDPOINT = os.getenv("AZURE_SEARCH_ENDPOINT")
 SEARCH_KEY = os.getenv("AZURE_SEARCH_KEY")
-SEARCH_INDEX_NAME = os.getenv("AZURE_SEARCH_INDEX_NAME", "bakasura-documents")
+SEARCH_INDEX_NAME = os.getenv("AZURE_SEARCH_INDEX_NAME", "bakasura-docs-v3-chunk1000")
 VECTOR_DIMENSIONS = 1536
 
 
