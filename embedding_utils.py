@@ -7,7 +7,7 @@ import fitz  # PyMuPDF
 from PIL import Image
 import io
 import pandas as pd
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 import tempfile
 from openai import AzureOpenAI
 import re
