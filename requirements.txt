@@ -1,13 +1,10 @@
 streamlit
-openai
 python-dotenv
 langchain
-
+langchain-text-splitters
 PyMuPDF
 pillow
 pandas
-
-azure-search-documents>=11.4.0
-azure-core>=1.29.1
-azure-cognitiveservices-vision-computervision
-msrest
+google-genai
+google-cloud-firestore
+google-cloud-vision
