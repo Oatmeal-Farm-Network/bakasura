@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 8000
 
 # Define the command to run the app on port 8000
-CMD ["streamlit", "run", "main.py", "--server.port=8000"]
+CMD ["streamlit", "run", "your_app.py", "--server.port", "8080", "--server.address", "0.0.0.0"]
 
